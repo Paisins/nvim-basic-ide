@@ -39,6 +39,8 @@ packer.init {
   git = {
     clone_timeout = 300, -- Timeout, in seconds, for git clones
   },
+  -- limit jobs
+  max_jobs = 1;
 }
 
 -- Install your plugins here
