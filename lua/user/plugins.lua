@@ -37,7 +37,7 @@ packer.init {
     end,
   },
   git = {
-    clone_timeout = 300, -- Timeout, in seconds, for git clones
+    clone_timeout = 20, -- Timeout, in seconds, for git clones
   },
   -- limit jobs
   max_jobs = 1;
